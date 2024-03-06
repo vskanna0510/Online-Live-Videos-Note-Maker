@@ -70,7 +70,7 @@ function App() {
           <h2>Current Note</h2>
           {isListening ? <span>🎙️</span> : <span>🛑🎙️</span>}
           <button onClick={handleSaveNote} disabled={!note}>
-            Save Note
+            Save the Note
           </button>
           <button onClick={() => setIsListening(prevState => !prevState)}>
             Start/Stop
